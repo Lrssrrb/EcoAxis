@@ -64,7 +64,6 @@ public class EnergyMeterService {
          float hourValue = 0;
          float reminder = 0;
 
-         // Loop through each existing reading
          for (EnergyMeter reading : energyMeterReadings) {
              float minuteValue = reading.getMinuteValue();
 
